@@ -82,12 +82,34 @@ main h2{
     margin: 10px 0px 5px 0px;
 }
 main div {
-    background-color: var(--cor2);
-    height: 300px;
-    width: 300px;
+    background-color: white;
+    height: auto;
+    width: 500px;
     display: inline-block;
     border-radius: 10px;
+    margin: 0px 50px;
+    
 }
+
+main p {
+    font-family: var(--foten-padrao);
+    color: black;
+    text-indent: 5px;
+    text-align: justify;
+    
+}
+
+div.Gta img{
+    width: 150px;
+    height: 150px;
+    
+}
+div.red img{
+    width: 150px;
+    height: 150px;
+
+}
+
 
 footer{
     background-color: var(--cor2);
