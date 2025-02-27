@@ -9,27 +9,81 @@
    
 }
 @font-face {
-    font-family: 'bebas';
-    src: url('../fontes/Games.ttf') format('TrueType');
+    font-family: 'Game';
+    src: url('../fontes/Games-Italic.ttf') format('TrueType');
     font-weight: normal;
 }
 
 
 :root{
-    --cor0:#c5ebd6;
-    --cor1:#83e1ad;
-    --cor2:#3ddc84;
-    --cor3:#2fa866;
-    --cor4:#1a5c37;
-    --cor5:#063d1e;
+    --cor0:#B4E9FF;
+    --cor1:#8ADCFF;
+    --cor2:#066892;
+    --cor3:#17313C;
+    --cor4:#154E67;
+    
+
+    --font-Game: 'Game' ,cursive;
+    --foten-padrao:Arial, Verdana, Helvetica, sans-serif;
 
 
 }
 body{
-    background-color: var(--cor2);
+    background-color: white;
 
 }
-header h1{
-    font-family: ;
+header{
+    background-image: linear-gradient(blue,
+    var(--cor3));
+    padding: 10px 10px;
+    margin: -10px -10px;
 }
+header h1, p{
+    text-align: center;
+
+    color: white;
+    font-family: var(--font-Game) ;
+}
+header nav >a{
+    color: white;
+    font-family: var(--font-Game) ;
+    text-decoration: none;
+    margin: 15px;
+    
+    
+
+}
+
+a:hover{
+
+    background-color:var(--cor1);
+    color: var(--cor3);
+    padding: 5px 20px;
+    border-radius: 10px;
+    
+    
+}
+main{
+    border-radius: 10px 10px ;
+    background-color: antiquewhite;
+    margin: 0px 20px;
+    box-shadow: 0px 10px 10px black;
+}
+main div {
+    background-color: var(--cor2);
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--cor2);
+    text-align: center;
+    margin: 0 -10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
 
