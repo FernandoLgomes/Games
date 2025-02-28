@@ -44,6 +44,9 @@ header h1, p{
     color: white;
     font-family: var(--font-Game) ;
 }
+h1 > p{
+    font-family: var(--font-Game);
+}
 header nav >a{
     color: white;
     font-family: var(--font-Game) ;
@@ -99,15 +102,28 @@ main p {
     
 }
 
-div.Gta img{
+div.gta img{
     width: auto;
     height: 150px;
+    border-radius: 10px;
     
 }
 div.red img{
     width: auto;
     height: 150px;
+    border-radius: 10px;
 
+}
+div.ass img{
+    width: 290px;
+    height: 151px;
+    border-radius: 10px;
+}
+
+div.res img{
+    height: 170px;
+    width: 266px;
+    border-radius: 10px;
 }
 
 
