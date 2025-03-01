@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+
+   
+}
+@font-face {
+    font-family: 'Game';
+    src: url('../fontes/Games-Italic.ttf') format('TrueType');
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#B4E9FF;
+    --cor1:#8ADCFF;
+    --cor2:#066892;
+    --cor3:#17313C;
+    --cor4:#154E67;
+    
+
+    --font-Game: 'Game' ,cursive;
+    --foten-padrao:Arial, Verdana, Helvetica, sans-serif;
+
+
+}
+body{
+    background-color: white;
+
+}
+
+header{
+    background-image: linear-gradient(blue,
+    var(--cor3));
+    padding: 10px 10px;
+    margin: -10px -10px;
+}
+header h1, p{
+    text-align: center;
+
+    color: white;
+    font-family: var(--font-Game) ;
+}
+h1 > p{
+    font-family: var(--font-Game);
+}
+header nav >a{
+    color: white;
+    font-family: var(--font-Game) ;
+    text-decoration: none;
+    margin: 15px;
+    
+    
+
+}
+
+a:hover{
+
+    background-color:var(--cor1);
+    color: var(--cor3);
+    padding: 5px 20px;
+    border-radius: 10px;
+    
+    
+}
+
+main{
+    border-radius: 10px 10px ;
+    background-image: url('../img/fundo.jpg');
+    margin: 0px 10px;
+    box-shadow: 0px 10px 10px black;
+    
+}
+
+main h2{
+    font-family: var(--font-Game);
+    background-image: linear-gradient(to right, var(--cor4), transparent );
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px 0px 5px 0px;
+}
+main div {
+    background-color: antiquewhite;
+    height: auto;
+    width: auto;
+    display:inline-table;
+    border-radius: 10px;
+    margin: 10px 50px;
+    
+}
+
+main p {
+    font-family: var(--foten-padrao);
+    color: black;
+    text-indent: 5px;
+    text-align: justify;
+    
+}
+
+div{
+    height: 204px;
+    width: 287px;
+}
+
+div.pc img{
+    width: auto;
+    height: 150px; 
+    border-radius: 10px;
+
+    
+}
+div.pc p{
+    font-family: var(--font-Game);
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+footer{
+    background-color: var(--cor2);
+    text-align: center;
+    margin: 0 -10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+
+    
+}
+footer >a:hover{
+    background-color:var(--cor0);
+    color: black;
+    font-family: var(--font-Game);
+    border-radius: 10px;
+
+}
