@@ -35,6 +35,8 @@ body{
 header{
     background-image: linear-gradient(blue,
     var(--cor3));
+    background-image: url(../img/imagnes/fundo01.jpg);
+    
     padding: 10px 10px;
     margin: -10px -10px;
 }
